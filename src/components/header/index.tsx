@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function Header() {
   const { data: session, status } = useSession();
-  
+
   return (
     <header className={styles.header}>
       <section className={styles.content}>
